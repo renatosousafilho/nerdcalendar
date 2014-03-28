@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_at: 2014-03-28
+  end_at: 2014-03-28
+  reservable_id: 
+
+two:
+  start_at: 2014-03-28
+  end_at: 2014-03-28
+  reservable_id: 
