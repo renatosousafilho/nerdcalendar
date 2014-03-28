@@ -1,9 +1,10 @@
-== NerdCalendar
+#NerdCalendar
 
 A ideia é fazer este projeto se tornar uma gem para auxiliar a construção de sistemas que envolvam locações ou reservas.
 
 Um modelo que for 'reservável' não pode ser reservado duas vezes em um mesmo intervalo de tempo, para isso criei os models Reservable que representa qualquer objeto ou serviço que pode ser alugado e Reservation que serve para representar uma reserva e através do mesmo ser capaz de saber se um objeto já está reservado.
 
+##Reservable
 ```ruby
 class Reservable < ActiveRecord::Base
 	has_many :reservations
@@ -21,7 +22,7 @@ class Reservable < ActiveRecord::Base
 end
 ```
 
-
+##Reservation
 ```ruby
 class Reservation < ActiveRecord::Base
   belongs_to :reservable
