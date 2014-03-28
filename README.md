@@ -57,9 +57,17 @@ class Reservation < ActiveRecord::Base
 end
 ```
 
-O que precisa ser feito???
+#O que precisa ser feito???
 
 * Obter o status se o objeto reservável está livre ou ocupado e se possível uma terceira situação, reservado, ou seja aquele que ainda não foi efetivamente usado mas está reservado.
 * Otimizar as queries e os mecanismos das validações.
 
 Quem puder ajudar a contribuir pode se sentir a vontade, meu e-mail é renatosousafilho@gmail.com e twitter @renatosousafh.
+
+
+#Dependências
+```
+rspec-rails
+factory-girl
+database_cleaner
+```
